@@ -68,7 +68,7 @@ module.exports.session = {
      ***************************************************************************/
 
     adapter: 'mongo',
-    host: 'ex-std-node817.prod.rhcloud.com',
+    host: 'localhost',
     port: 27017,
     db: 'sails',
     user: 'admin',
