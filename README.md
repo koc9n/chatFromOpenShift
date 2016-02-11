@@ -1,3 +1,3 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+# videochat
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+a [Sails](http://sailsjs.org) application
