@@ -68,7 +68,7 @@ module.exports.session = {
   ***************************************************************************/
 
    adapter: 'mongo',
-   host: 'localhost',
+   host: 'videochat-kosmironchik.rhcloud.com',
    port: 27017,
    db: 'sails',
    collection: 'sessions',

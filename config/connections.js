@@ -57,13 +57,22 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  someMongodbServer: {
+  localMongodbServer: {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
     // user: 'username',
     // password: 'password',
     database: 'chatDB'
+  },
+
+  openShiftMongodbServer: {
+    adapter: 'sails-mongo',
+    host: 'videochat-kosmironchik.rhcloud.com',
+    port: 27017,
+    user: 'admin',
+    password: '61eVHvytbpxU',
+    database: 'videochat'
   },
 
   /***************************************************************************
