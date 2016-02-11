@@ -68,7 +68,7 @@ module.exports.session = {
      ***************************************************************************/
 
     adapter: 'mongo',
-    host: 'localhost',
+    host: process.env.OPENSHIFT_MONGODB_DB_HOST,
     port: 27017,
     db: 'sails',
     user: 'admin',
